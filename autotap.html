@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Autotap · FlexStarter</title>
+  <meta name="description" content="Mobile-first help for new Amazon Flex drivers (unofficial)." />
+  <link rel="stylesheet" href="assets/styles.css?v=headerdrawer2" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <button class="tab-handle" id="tab-handle" aria-expanded="false" aria-controls="drawer">
+        <span class="bars"><span></span><span></span><span></span></span>
+        <span class="label">Menu</span>
+      </button>
+      <div class="title">Autotap</div>
+
+      <!-- Drawer now lives INSIDE the header; it drops below the bar -->
+      <nav class="drawer" id="drawer" aria-label="Site">
+        <div class="brand"><span class="badge">F</span>FlexStarter</div>
+        <div class="nav-scroll">
+          <a class="nav-item" href="index.html">Home</a>
+          <a class="nav-item" href="first-time-guide.html">First-time guide</a>
+          <a class="nav-item" href="how-to-get-shifts.html">How to get shifts</a>
+          <a class="nav-item" href="how-to-load-your-car.html">How to load your car</a>
+          <a class="nav-item" href="common-issues.html">Common issues</a>
+          <a class="nav-item" href="parking.html">Parking</a>
+
+          <details class="accordion" id="site-guides">
+            <summary class="nav-item">Site guides</summary>
+            <div class="sub-list">
+              <a class="sub-item" href="morrisons-basic-guide.html">Morrisons basic guide</a>
+              <a class="sub-item" href="fresh-basic-guide.html">Fresh basic guide</a>
+              <a class="sub-item" href="logistics-basic-guide.html">Logistics basic guide</a>
+            </div>
+          </details>
+
+          <hr style="border:none;border-top:1px solid #1b254e;margin:12px 0" />
+          <a class="nav-item" href="https://www.amazon.co.uk/flex" target="_blank" rel="noopener">Amazon Flex →</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card">
+
+
+        <div style="text-align:center; margin: 20px 0;">
+          <a href="https://play.google.com/store/apps/details?id=uk.co.appsandclicks.autotap" target="_blank">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              alt="Get it on Google Play" style="height: 80px;">
+          </a>
+          <div style="margin-top:10px;">
+            <img src="assets/ic_launcher-playstore.png" alt="AutoTap logo"
+              style="height:64px; width:64px; border-radius:12px;">
+            <p style="font-size:18px; font-weight:bold; margin:6px 0 0;">AutoTap</p>
+          </div>
+        </div>
+
+        <h2 class="h2">Automate the process</h2>
+        <ul class="list">
+          <p>This is a paid app costing £5 per month or £25 per year. If you use AutoTap properly, it’s realistic to pull in £400–£500 per week.</p>
+          <li><strong>Use this app to automate getting shifts</strong> so you’re not constantly tapping your screen.</li>
+          <li>Other apps and services often charge a commission on each shift you book — and that adds up fast. With AutoTap, you just pay a one-time fee and can book an unlimited number of shifts.</li>
+        </ul>
+
+        <h2 class="h2">Pre-Setup</h2>
+        <ul class="list">
+          <li>Make sure you have all the stations you’re able to pick up from selected in your filters. There’s a list
+            of available stations on this <a
+              href="https://www.google.com/maps/d/embed?mid=1fCHK8bnWX-OU1mzzcocIwuHyjKlu9qI&ehbc=2E312F"
+              target="_blank">map</a>. Note: The map is slightly out of date, but it’s the best resource currently
+            available online. Credit to Rodritari on Reddit for the map.</li>
+          <li>Set the times you can actually arrive at all the sites you’ve marked as active in your filters.</li>
+        </ul>
+
+        <h2 class="h2">How to use</h2>
+        <ol class="list">
+          <li>Got to settings:</li>
+          <img src="images/AutotapHome.png">
+          <li>Set the delays as such and press save:</li>
+          <img src="images/AutotapSettings.png">
+          <li>Ensure jitter is enabled:</li>
+          <img src="images/AutotapSettingsJitter.png">
+          <li>Press "Pick Postions on screen":</li>
+          <img src="images/AutotapSettingsPick.png">
+          <li>Place the markers in the postions as below:</li>
+          <img src="images/AutotapPositions.png">
+          <li>Once you get a shift open your calendar and sort your shifts. If you don’t want a shift you’ve just accepted, forfeit it and
+            keep searching. You can forfeit within 5 minutes of accepting without any consequences.
+            <br>For example:
+            <br>if you accidentally accept a shift that starts in 10 minutes, you can safely forfeit it as long as you
+            do so within that 5-minute window.
+          </li>
+        </ol>
+
+        <p class="p">This usecase isn’t allowed under Amazon’s Terms of Use. That said, there are other bots openly listed on the Play Store that directly break Amazon’s rules. They’ve been available for years, and if Amazon really cared, they would have forced Google to remove them by now. The reality is that most drivers already use these tools — so either get busy working, or get busy complaining.</p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">© 2025 FlexStarter. Unofficial guide. Not affiliated with Amazon. For information only.
+  </footer>
+  <script src="assets/app.js?v=headerdrawer1"></script>
+</body>
+
+</html>
